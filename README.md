@@ -13,15 +13,21 @@ The HTML Scraper provides the following meta-information:
 - The Scraper is capable of handling complex HTML documents and provides detailed output that can be useful in a variety of contexts, including web analysis, SEO, and web performance optimization.
 
 ## Installation
-To install and run the HTML Scraper, ensure you have Node.js installed, and then clone the repository and install the dependencies:
-
+Ensure you have Node.js installed, and then clone the repository and install the dependencies:
 
 ```bash
 git clone git@github.com:nunomfelix/jscr4mbl3r-exercise.git
 cd jscr4mbl3r-exercise
 yarn install
 ```
-Usage
+## Building and Running the Project
+
+To build the project run the following:
+
+```bash
+yarn build
+```
+
 To use the HTML Scraper, pass the URL you want to analyze as an argument to the CLI:
 
 ```bash
