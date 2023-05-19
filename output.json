@@ -2,327 +2,72 @@
   "tags": {
     "html": {
       "count": 1,
-      "attributes": {
-        "style": 1
-      },
+      "attributes": {},
       "children": {
-        "head": 1
+        "head": 1,
+        "body": 1
       }
     },
     "head": {
       "count": 1,
       "attributes": {},
       "children": {
-        "meta": 1
-      }
-    },
-    "meta": {
-      "count": 18,
-      "attributes": {
-        "name": 1,
-        "content": 1,
-        "data-react-helmet": 1,
-        "property": 1
-      },
-      "children": {
-        "meta": 16,
-        "link": 2
-      }
-    },
-    "link": {
-      "count": 7,
-      "attributes": {
-        "rel": 1,
-        "type": 1,
-        "href": 1,
-        "data-react-helmet": 1
-      },
-      "children": {
-        "link": 5,
-        "noscript": 1,
-        "body": 1
-      }
-    },
-    "noscript": {
-      "count": 1,
-      "attributes": {},
-      "children": {
-        "title": 1
+        "title": 1,
+        "meta": 3
       }
     },
     "title": {
       "count": 1,
+      "attributes": {},
+      "children": {}
+    },
+    "meta": {
+      "count": 3,
       "attributes": {
-        "data-react-helmet": 1
+        "charset": 1,
+        "http-equiv": 1,
+        "content": 2,
+        "name": 1
       },
-      "children": {
-        "meta": 1
-      }
+      "children": {}
     },
     "body": {
       "count": 1,
-      "attributes": {
-        "style": 1
-      },
+      "attributes": {},
       "children": {
         "div": 1
       }
     },
     "div": {
-      "count": 193,
-      "attributes": {
-        "id": 1,
-        "data-reactroot": 1,
-        "class": 1,
-        "style": 1,
-        "tabindex": 1,
-        "role": 1
-      },
+      "count": 1,
+      "attributes": {},
       "children": {
-        "div": 102,
-        "nav": 2,
-        "a": 39,
-        "button": 2,
         "h1": 1,
-        "h4": 1,
-        "h2": 3,
-        "img": 12,
-        "h3": 13,
-        "section": 2,
-        "span": 13,
-        "footer": 1,
-        "b": 1,
-        "i": 1
-      }
-    },
-    "nav": {
-      "count": 4,
-      "attributes": {
-        "class": 1
-      },
-      "children": {
-        "div": 1,
-        "h6": 3
-      }
-    },
-    "a": {
-      "count": 70,
-      "attributes": {
-        "href": 1,
-        "class": 1,
-        "id": 1,
-        "rel": 1,
-        "action": 1,
-        "type": 1,
-        "target": 1
-      },
-      "children": {
-        "img": 3,
-        "a": 6,
-        "div": 39,
-        "span": 3,
-        "h3": 1,
-        "h6": 6,
-        "nav": 2,
-        "i": 9,
-        "strong": 1
-      }
-    },
-    "img": {
-      "count": 85,
-      "attributes": {
-        "class": 1,
-        "src": 1,
-        "alt": 1,
-        "loading": 1
-      },
-      "children": {
-        "a": 1,
-        "div": 12,
-        "h3": 4,
-        "img": 68
-      }
-    },
-    "button": {
-      "count": 2,
-      "attributes": {
-        "class": 1,
-        "type": 1
-      },
-      "children": {
-        "div": 2
+        "p": 2
       }
     },
     "h1": {
       "count": 1,
-      "attributes": {
-        "class": 1
-      },
-      "children": {
-        "h4": 1
-      }
+      "attributes": {},
+      "children": {}
     },
-    "h4": {
+    "p": {
       "count": 2,
-      "attributes": {
-        "class": 1
-      },
-      "children": {
-        "div": 1,
-        "strong": 1
-      }
-    },
-    "strong": {
-      "count": 7,
       "attributes": {},
       "children": {
-        "span": 2,
-        "br": 3,
-        "div": 1,
-        "footer": 1
+        "a": 1
       }
     },
-    "span": {
-      "count": 34,
-      "attributes": {
-        "class": 1
-      },
-      "children": {
-        "a": 5,
-        "div": 14,
-        "img": 2,
-        "strong": 5,
-        "i": 3,
-        "h3": 5
-      }
-    },
-    "h2": {
-      "count": 3,
-      "attributes": {
-        "class": 1
-      },
-      "children": {
-        "div": 3
-      }
-    },
-    "h3": {
-      "count": 23,
-      "attributes": {
-        "class": 1
-      },
-      "children": {
-        "span": 9,
-        "div": 1,
-        "i": 8,
-        "a": 5
-      }
-    },
-    "section": {
-      "count": 2,
-      "attributes": {
-        "class": 1,
-        "style": 1
-      },
-      "children": {
-        "div": 2
-      }
-    },
-    "br": {
-      "count": 5,
-      "attributes": {},
-      "children": {
-        "br": 2,
-        "a": 3
-      }
-    },
-    "i": {
-      "count": 22,
-      "attributes": {
-        "class": 1,
-        "aria-hidden": 1
-      },
-      "children": {
-        "div": 13,
-        "span": 7,
-        "a": 2
-      }
-    },
-    "footer": {
-      "count": 2,
-      "attributes": {
-        "class": 1
-      },
-      "children": {
-        "div": 1
-      }
-    },
-    "h6": {
-      "count": 9,
-      "attributes": {
-        "class": 1
-      },
-      "children": {
-        "a": 9
-      }
-    },
-    "b": {
+    "a": {
       "count": 1,
-      "attributes": {},
-      "children": {
-        "i": 1
-      }
+      "attributes": {
+        "href": 1
+      },
+      "children": {}
     }
   },
   "resources": {
-    "https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css": 3,
-    "https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css": 3,
-    "https://jscrambler.com": 3,
-    "https://jscrambler.com/solutions": 12,
-    "https://jscrambler.com/products": 6,
-    "https://jscrambler.com/resources": 6,
-    "https://jscrambler.com/partners": 6,
-    "https://docs.jscrambler.com": 11,
-    "https://jscrambler.com/whats-new": 3,
-    "https://jscrambler.com/products/user-data-management": 6,
-    "https://jscrambler.com/products/webpage-threat-mitigation": 6,
-    "https://jscrambler.com/products/application-shielding": 6,
-    "https://blog.jscrambler.com/jscrambler-recognized-in-gartners-hype-cycle-for-application-security-2021": 3,
-    "https://blog.jscrambler.com/jscrambler-recognized-as-a-sample-vendor-in-2022-gartner-r-hype-cycle-for-application-security/": 3,
-    "https://www.bintelligence.com/blog/2023/1/11/11-executives-55-companies-and-91-products-win-2023-big-innovation-award": 3,
-    "https://media.jscrambler.com/resources/Jscrambler-Case-Study-How-Jscrambler-Helps-dotConnect-Deliver-Secure-Banking-Apps.pdf": 4,
-    "https://media.jscrambler.com/resources/Jscrambler-Case-Study-Healthcare-Bionano-Genomics.pdf": 3,
-    "https://jscrambler.com/about": 2,
-    "https://jscrambler.com/contact": 2,
-    "https://jscrambler.com/careers": 2,
-    "https://blog.jscrambler.com": 7,
-    "https://jscrambler.com/press": 2,
-    "https://jscrambler.com/events": 2,
-    "https://docs.jscrambler.com/privacy-and-security": 2,
-    "https://docs.jscrambler.com/code-integrity/changelog": 2,
-    "https://www.facebook.com/Jscrambler.AppSec": 5,
-    "https://twitter.com/jscrambler": 5,
-    "https://www.linkedin.com/company/jscrambler": 5,
-    "https://jscrambler.com/p2020": 3,
-    "https://jscrambler.com/solutions/javascript-protection": 3,
-    "https://jscrambler.com/solutions/magecart-mitigation": 3,
-    "https://jscrambler.com/solutions/mobile-app-protection": 3,
-    "https://jscrambler.com/solutions/data-leakage-prevention": 3,
-    "https://jscrambler.com/solutions/third-party-control": 3,
-    "https://jscrambler.com/solutions/customer-hijacking-prevention": 3,
-    "https://jscrambler.com/solutions/user-data-protection-compliance": 3,
-    "https://jscrambler.com/solutions/financial-services": 3,
-    "https://jscrambler.com/solutions/it-software": 3,
-    "https://jscrambler.com/solutions/ecommerce": 3,
-    "https://jscrambler.com/solutions/healthcare": 3,
-    "https://jscrambler.com/solutions/media-ott": 3,
-    "https://jscrambler.com/solutions/gaming-gambling": 3,
-    "https://jscrambler.com/code-integrity": 3,
-    "https://jscrambler.com/products/runtime-protection": 3,
-    "https://jscrambler.com/products/javascript-threat-monitoring": 3,
-    "https://jscrambler.com/webpage-integrity": 3,
-    "https://jscrambler.com/products/webpage-inventory": 3,
-    "https://jscrambler.com/products/third-party-management": 3,
-    "https://learning-hub.jscrambler.com": 4
+    "https://www.iana.org/domains/example": 1
   },
-  "maxDepth": 18
+  "maxDepth": 4
 }

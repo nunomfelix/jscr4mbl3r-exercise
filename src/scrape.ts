@@ -27,8 +27,6 @@ async function scrapeUrl(url: string, outputFile?: string) {
       maxDepth: 0,
     };
 
-    let tagInfo: TagInfo | undefined;
-
     // Recursive function to traverse the DOM
     function traverse(node: cheerio.Element, depth: number) {
       // Set maxDepth
@@ -52,7 +50,7 @@ async function scrapeUrl(url: string, outputFile?: string) {
       }
 
       // Cache reference to current tag info
-      tagInfo = info.tags[tagName];
+      const tagInfo = info.tags[tagName];
 
       // Increment tag count
       tagInfo.count += 1;
@@ -61,24 +59,24 @@ async function scrapeUrl(url: string, outputFile?: string) {
       if (node.attribs) {
         for (let attr in node.attribs) {
           if (!tagInfo.attributes[attr]) {
-            tagInfo.attributes[attr] = 1;
+            tagInfo.attributes[attr] = 0;
           }
+          tagInfo.attributes[attr] += 1;
 
           // Detect resources
-          ['src', 'href'].forEach((resourceAttr) => {
-            const resource = node.attribs[resourceAttr];
-            if (resource && resource.startsWith('http')) {
-              if (!info.resources[resource]) {
-                info.resources[resource] = 0;
-              }
-              info.resources[resource] += 1;
+          if ((attr === 'src' || attr === 'href') && node.attribs[attr].startsWith('http')) {
+            const resource = node.attribs[attr];
+            if (!info.resources[resource]) {
+              info.resources[resource] = 0;
             }
-          });
+            info.resources[resource] += 1;
+          }
         }
       }
 
       // Count children
-      $(node).children().each((_, child: cheerio.Element) => {
+      const children = $(node).children().toArray();
+      children.forEach((child: cheerio.Element) => {
         if (child.type !== 'tag') {
           return;
         }

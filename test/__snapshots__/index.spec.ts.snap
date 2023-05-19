@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CLI scrapes a URL and writes the output to a file 1`] = `
+{
+  "maxDepth": 4,
+  "resources": {
+    "https://www.iana.org/domains/example": 1,
+  },
+  "tags": {
+    "a": {
+      "attributes": {
+        "href": 1,
+      },
+      "children": {},
+      "count": 1,
+    },
+    "body": {
+      "attributes": {},
+      "children": {
+        "div": 1,
+      },
+      "count": 1,
+    },
+    "div": {
+      "attributes": {},
+      "children": {
+        "h1": 1,
+        "p": 2,
+      },
+      "count": 1,
+    },
+    "h1": {
+      "attributes": {},
+      "children": {},
+      "count": 1,
+    },
+    "head": {
+      "attributes": {},
+      "children": {
+        "meta": 3,
+        "title": 1,
+      },
+      "count": 1,
+    },
+    "html": {
+      "attributes": {},
+      "children": {
+        "body": 1,
+        "head": 1,
+      },
+      "count": 1,
+    },
+    "meta": {
+      "attributes": {
+        "charset": 1,
+        "content": 2,
+        "http-equiv": 1,
+        "name": 1,
+      },
+      "children": {},
+      "count": 3,
+    },
+    "p": {
+      "attributes": {},
+      "children": {
+        "a": 1,
+      },
+      "count": 2,
+    },
+    "title": {
+      "attributes": {},
+      "children": {},
+      "count": 1,
+    },
+  },
+}
+`;
